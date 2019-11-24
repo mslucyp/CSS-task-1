@@ -4,13 +4,13 @@ html, body {
 }
 
 body {
-    background-color: red;
+    background-color: #45BFED;
     overflow-x: hidden;
 }
 
 h1 {
     font-size: 100px;
-    color: #45BFED;
+    color: rgba(7, 0, 12, 0.75);
     text-align: center;
     font-family: "Segoe-UI", sans-serif;
 }
@@ -20,16 +20,16 @@ header {
 }
 
 .subtitle {
-    font-size: 40px;
-    text-align: center;
-    color: rgba(143, 7, 255, 0.75);
-    font-family: "Avenir", sans-serif;
-    letter-spacing: 3px;
+font-size: 40px;
+color: rgba(7, 0, 12, 0.75);
+text-align: center;
+font-family: "Segoe-UI", sans-serif;
+letter-spacing: 3px;
 }
 
 .pizza-header {
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    padding: 0px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -44,7 +44,7 @@ section.img-grid {
 
 section.img-grid .img-item{
     margin: 10px 15px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 section.content{
@@ -57,27 +57,47 @@ section.content{
 section.content h3{
     font-size: 42px;
     font-family: 'Segoe UI', sans-serif;
-    color: black;
+    color: #ffffff;
 }
 
 section.content p{
     font-size: 24px;
-    font-family: cursive;
+    font-family: 'Segoe UI', sans-serif;
 
-    color: violet;
+    color: #ffffff;
 }
 
 section.content a{
-    color: rgb(0, 225, 255);
+    color: #ffffff;
 }
 
 section.content a:hover{
     opacity: 0.6;
 }
 
+/* unvisited link */
+a:link {
+    color: magenta;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
 footer{
-    background: orange;
-    color: green;
+    background: grey;
+    color: magenta;
 
     font-family: 'Avenir', sans-serif;
     display: flex;
